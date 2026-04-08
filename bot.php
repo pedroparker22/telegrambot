@@ -33,7 +33,7 @@ elseif (strpos($text, "detergente") !== false || strpos($text, "lavaloza") !== f
     $respuesta = "El producto se encuentra en el Pasillo 5.";
 }
 
-$token = "TU_TOKEN";
+$token = "8712740319:AAGaF2-I3Xy5BnDy4OuCwSXiRiD5rm7v2jw";
 $url = "https://api.telegram.org/bot{$token}/sendMessage";
 
 file_get_contents($url . "?" . http_build_query([
